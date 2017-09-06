@@ -18,16 +18,22 @@
 	var supports = 'querySelector' in document && 'addEventListener' in root; // Feature test
 	var settings, anchor, toggle, fixedHeader, headerHeight, eventTimeout, animationInterval;
 
-	// Default settings
+	var getItem = document.querySelector(".solo-cnt__item");
+	var itemRect = getItem.getBoundingClientRect();
+
+	var getOff = itemRect.top + window.scrollY;
+
+
+    // Default settings
 	var defaults = {
 		// Selectors
 		selector: '[data-scroll]',
 		selectorHeader: null,
 
 		// Speed & Easing
-		speed: 500,
-		offset: 0,
-		easing: 'easeInOutCubic',
+		speed: 700,
+		offset: getOff,
+		easing: 'easeInOutQuart',
 		easingPatterns: {},
 
 		// Callback API

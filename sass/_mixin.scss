@@ -1,0 +1,17 @@
+@mixin listreset {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@mixin linkreset {
+  text-decoration: none;
+  color: inherit;
+}
+
+@mixin font ($size, $weight: 400, $color: black, $family: "NeueKabel") {
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  font-family: $family;
+}
