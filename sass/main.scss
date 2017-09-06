@@ -474,9 +474,10 @@ header {
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        flex-flow: row wrap;
 
         &__item {
-          flex-basis: 25%;
+          flex-basis: calc(25% - 8px);
 
           & a {
             @include linkreset;

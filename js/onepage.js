@@ -28,7 +28,7 @@ window.addEventListener('load', function () {
 
                 var scroll = document.querySelector(href);
 
-                var firstItem = document.querySelector("#tovanilla");
+                var firstItem = document.querySelector(".solo-cnt__item");
                 var scrollRect = firstItem.getBoundingClientRect();
 
                 var scrollOff = scrollRect.top + window.scrollY;
