@@ -16,6 +16,15 @@ window.addEventListener('load', function () {
 
     var links = document.querySelectorAll(".main__menu__list__item a");
 
+    var firstItem = document.querySelector(".solo-cnt__item");
+    var scrollRect = firstItem.getBoundingClientRect();
+
+    var scrollOff = scrollRect.top + window.scrollY;
+
+    if(window.innerWidth <= 768) {
+        scrollOff = scrollOff / 2.85;
+        console.log("768px");
+    }
 
     for (i = 0; i <= links.length - 1; i++) {
 
@@ -28,16 +37,14 @@ window.addEventListener('load', function () {
 
                 var scroll = document.querySelector(href);
 
-                var firstItem = document.querySelector(".solo-cnt__item");
-                var scrollRect = firstItem.getBoundingClientRect();
-
-                var scrollOff = scrollRect.top + window.scrollY;
 
 
                 TweenLite.to(window, 0.8, {
                     scrollTo: {y: scroll, offsetY: scrollOff},
                     ease: Expo.easeInOut
                 })
+
+
 
 
                 var active = document.querySelector("li.menu__active");
