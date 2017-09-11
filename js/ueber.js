@@ -41,15 +41,27 @@ document.addEventListener("DOMContentLoaded", function () {
         var galeryButtonForward = document.createElement("i");//forw-button
         galeryButtonForward.setAttribute("class", "galeryforwardbutton right-i");
 
-        var galeryX = document.createElement("span");
-        galeryX.setAttribute("class", "galeryX");
+        var exitCnt = document.createElement("div");
+        exitCnt.setAttribute("class", "exit-cnt");
+
+        var galeryX1 = document.createElement("span");
+        galeryX1.setAttribute("class", "galeryX x-one");
+
+        var galeryX2 = document.createElement("span");
+        galeryX2.setAttribute("class", "galeryX x-two");
+
+
+        exitCnt.appendChild(galeryX1);
+        exitCnt.appendChild(galeryX2);
 
         //platzieren der erstellten objekte
         galerylightbox.appendChild(galeryorganizer);//div for flex items
+        galerylightbox.appendChild(exitCnt);
         galeryorganizer.appendChild(galeryButtonBack);//setze img mit buttons
         galeryorganizer.appendChild(galeryactiveimg);//--
         galeryorganizer.appendChild(galeryButtonForward);//--
-        galerylightbox.appendChild()
+
+
 
         var galerypicturenavigation = document.createElement("ul");//zum platzieren einzelner objekte in css
         galerypicturenavigation.setAttribute("class", "selected-lightbox-imgs");//

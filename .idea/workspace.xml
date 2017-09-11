@@ -2,208 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1540626d-3b24-442a-8fdb-860ee419bba2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Black.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-BoldItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Book.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Book.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-BookItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-BookItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-LightItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Medium.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-MediumItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-Thin.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-ThinItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/font/NeueKabel/NeueKabel-ThinItalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/allerlei/img9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/grandcru/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/grandcru/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/grandcru/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/grandcru/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/grandcru/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/grandcru/img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/grandcru/img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/grandcru/img8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/cafe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/caramel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/deleche.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/denoirs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/eierlikor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/himbeer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/kirsch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/laflor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/macadamia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/pflaumen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/overview/pralinen/vanilla.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/allerlei/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/allerlei/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/allerlei/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/allerlei/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/allerlei/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/allerlei/img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/allerlei/img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/grandcru/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/grandcru/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/grandcru/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/grandcru/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/grandcru/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/grandcru/img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/grandcru/img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/grandcru/img8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/cafe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/caramel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/denoirs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/duleche.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/eierlikor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/himbeer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/kirsch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/laflor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/macadamia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/pflaume.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/solo/pralinen/vanilla.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/big/big1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/big/big2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/big/big3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/big/big4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/big/big5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/big/big6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/big/big7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/big/big8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/thmb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/thmb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/thmb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/thmb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/thmb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/thmb6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/thmb7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/ueber-gallery/thmb8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/bittersuess.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/chocballs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/choccubes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/chocflowers.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/chocmanufac.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/chocpieces.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/chocsticks.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/human.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/logoclothing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/home/packaging.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/allerlei/img9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/grandcru/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/grandcru/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/grandcru/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/grandcru/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/grandcru/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/grandcru/img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/grandcru/img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/grandcru/img8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/cafe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/caramel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/deleche.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/denoirs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/eierlikor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/himbeer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/kirsch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/laflor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/macadamia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/pflaumen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/overview/pralinen/vanilla.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/allerlei/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/allerlei/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/allerlei/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/allerlei/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/allerlei/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/allerlei/img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/allerlei/img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/grandcru/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/grandcru/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/grandcru/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/grandcru/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/grandcru/img5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/grandcru/img6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/grandcru/img7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/grandcru/img8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/cafe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/caramel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/denoirs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/duleche.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/eierlikor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/himbeer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/kirsch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/laflor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/macadamia.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/pflaume.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/solo/pralinen/vanilla.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/big/big1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/big/big2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/big/big3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/big/big4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/big/big5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/big/big6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/big/big7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/big/big8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/thmb1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/thmb2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/thmb3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/thmb4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/thmb5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/thmb6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/thmb7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/imgs/ueber-gallery/thmb8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/CSSPlugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/EasePack.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ScrollToPlugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/TweenLite.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/css/main.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/js/EasePack.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/js/ScrollToPlugin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/js/TweenLite.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/js/onepage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/js/smooth-scroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/sass/_mixin.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/sass/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/sass/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/ueber/360.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/ueber/filme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/ueber/impressionen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/ueber/preise.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/ueber/presse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_gallery/ueber/ueber.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grandcru_solo.html" afterPath="$PROJECT_DIR$/grandcru_solo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ueber.js" afterPath="$PROJECT_DIR$/js/ueber.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pralinen.html" afterPath="$PROJECT_DIR$/pralinen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pralinen_solo.html" afterPath="$PROJECT_DIR$/pralinen_solo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/360.html" afterPath="$PROJECT_DIR$/ueber/360.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/filme.html" afterPath="$PROJECT_DIR$/ueber/filme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/impressionen.html" afterPath="$PROJECT_DIR$/ueber/impressionen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/preise.html" afterPath="$PROJECT_DIR$/ueber/preise.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/presse.html" afterPath="$PROJECT_DIR$/ueber/presse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/ueber.html" afterPath="$PROJECT_DIR$/ueber/ueber.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -220,22 +29,22 @@
           <file leaf-file-name="pralinen.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pralinen.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2793">
-                  <caret line="147" column="53" lean-forward="false" selection-start-line="147" selection-start-column="53" selection-end-line="147" selection-end-column="53" />
+                <state relative-caret-position="190">
+                  <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
                   <folding>
                     <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <marker date="1504793889000" expanded="true" signature="2444:2612" ph="..." />
-                    <marker date="1504793889000" expanded="true" signature="2488:2597" ph="..." />
+                    <marker date="1505128972000" expanded="true" signature="2492:2660" ph="..." />
+                    <marker date="1505128972000" expanded="true" signature="2536:2645" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pralinen_solo.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="pralinen_solo.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pralinen_solo.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1849">
-                  <caret line="251" column="14" lean-forward="false" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
+                <state relative-caret-position="190">
+                  <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -244,8 +53,8 @@
           <file leaf-file-name="ueber.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/ueber.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+                <state relative-caret-position="93">
+                  <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -254,8 +63,8 @@
           <file leaf-file-name="impressionen.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/impressionen.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="869">
-                  <caret line="144" column="38" lean-forward="false" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
+                <state relative-caret-position="190">
+                  <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -264,8 +73,8 @@
           <file leaf-file-name="preise.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/preise.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+                <state relative-caret-position="190">
+                  <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -274,8 +83,8 @@
           <file leaf-file-name="presse.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/presse.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+                <state relative-caret-position="133">
+                  <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -284,8 +93,8 @@
           <file leaf-file-name="360.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/360.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+                <state relative-caret-position="133">
+                  <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -294,18 +103,18 @@
           <file leaf-file-name="filme.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/filme.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+                <state relative-caret-position="133">
+                  <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="grandcru_solo.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="grandcru_solo.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/grandcru_solo.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5282">
-                  <caret line="278" column="23" lean-forward="false" selection-start-line="278" selection-start-column="23" selection-end-line="278" selection-end-column="23" />
+                <state relative-caret-position="38">
+                  <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
@@ -333,8 +142,8 @@
           <file leaf-file-name="ueber.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/ueber.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="596">
-                  <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+                <state relative-caret-position="507">
+                  <caret line="58" column="44" lean-forward="true" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -429,19 +238,19 @@
         <option value="$PROJECT_DIR$/grandcru.html" />
         <option value="$PROJECT_DIR$/allerlei.html" />
         <option value="$PROJECT_DIR$/allerlei_solo.html" />
-        <option value="$PROJECT_DIR$/grandcru_solo.html" />
         <option value="$PROJECT_DIR$/js/onepage.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$USER_HOME$/Downloads/niklas galerie/ueber copy.js" />
+        <option value="$PROJECT_DIR$/sass/main.scss" />
+        <option value="$PROJECT_DIR$/pralinen_solo.html" />
+        <option value="$PROJECT_DIR$/pralinen.html" />
         <option value="$PROJECT_DIR$/ueber/ueber.html" />
-        <option value="$PROJECT_DIR$/ueber/360.html" />
-        <option value="$PROJECT_DIR$/ueber/filme.html" />
+        <option value="$PROJECT_DIR$/ueber/impressionen.html" />
         <option value="$PROJECT_DIR$/ueber/preise.html" />
         <option value="$PROJECT_DIR$/ueber/presse.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/pralinen.html" />
-        <option value="$PROJECT_DIR$/pralinen_solo.html" />
-        <option value="$USER_HOME$/Downloads/niklas galerie/ueber copy.js" />
-        <option value="$PROJECT_DIR$/ueber/impressionen.html" />
-        <option value="$PROJECT_DIR$/sass/main.scss" />
+        <option value="$PROJECT_DIR$/ueber/360.html" />
+        <option value="$PROJECT_DIR$/ueber/filme.html" />
+        <option value="$PROJECT_DIR$/grandcru_solo.html" />
         <option value="$PROJECT_DIR$/js/ueber.js" />
       </list>
     </option>
@@ -673,7 +482,7 @@
       <workItem from="1504863052200" duration="1045000" />
       <workItem from="1504865392662" duration="1146000" />
       <workItem from="1505108791778" duration="1381000" />
-      <workItem from="1505126542218" duration="1982000" />
+      <workItem from="1505126542218" duration="3775000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;NEW COMMIT&quot;">
       <created>1504693627906</created>
@@ -710,16 +519,24 @@
       <option name="project" value="LOCAL" />
       <updated>1505128436496</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;NEW WITH GALLERY&quot;">
+      <created>1505128601259</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505128601259</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100940000" />
+    <option name="totallyTimeSpent" value="102733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12083333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -815,8 +632,8 @@
           <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
           <folding>
             <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1504793889000" expanded="true" signature="2444:2612" ph="..." />
-            <marker date="1504793889000" expanded="true" signature="2488:2597" ph="..." />
+            <marker date="1505128972000" expanded="true" signature="2492:2660" ph="..." />
+            <marker date="1505128972000" expanded="true" signature="2536:2645" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1062,70 +879,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grandcru_solo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5282">
-          <caret line="278" column="23" lean-forward="false" selection-start-line="278" selection-start-column="23" selection-end-line="278" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/360.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/filme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/preise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/presse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/onepage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pralinen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="147" column="53" lean-forward="false" selection-start-line="147" selection-start-column="53" selection-end-line="147" selection-end-column="53" />
-          <folding>
-            <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1504793889000" expanded="true" signature="2444:2612" ph="..." />
-            <marker date="1504793889000" expanded="true" signature="2488:2597" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/ueber.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1137,26 +894,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/impressionen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="144" column="38" lean-forward="false" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/niklas galerie/Niklas-Info-HTML und CSS">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3801">
           <caret line="184" column="39" lean-forward="false" selection-start-line="184" selection-start-column="39" selection-end-line="184" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pralinen_solo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1849">
-          <caret line="251" column="14" lean-forward="false" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1182,10 +923,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pralinen_solo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pralinen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1505128972000" expanded="true" signature="2492:2660" ph="..." />
+            <marker date="1505128972000" expanded="true" signature="2536:2645" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/ueber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/impressionen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/preise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/presse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/360.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/filme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grandcru_solo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/ueber.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="51" column="35" lean-forward="false" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+        <state relative-caret-position="507">
+          <caret line="58" column="44" lean-forward="true" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
           <folding />
         </state>
       </provider>
