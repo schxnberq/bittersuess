@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var galerieelements = document.querySelectorAll(".gallery__list__item a");
     var galerieelementsATag = document.querySelectorAll(".gallery__list__item a");
     var galerieelementsImgTags = document.querySelectorAll(".gallery__list__item a img");
-    var documentbody = document.querySelector("body");
+    var documentmain = document.querySelector("main");
     var galeryactivator = function (event) {
         event.preventDefault();//hindert weiterleiten
 
@@ -16,31 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         TweenLite.fromTo(galerylightbox, 0.3, {alpha: 0}, {alpha: 1});
-        documentbody.appendChild(galerylightbox);
-        var escapelightbox = document.createElement("div");//button zum escapen
+        documentmain.appendChild(galerylightbox);
+        /*var escapelightbox = document.createElement("div");//button zum escapen
         escapelightbox.setAttribute("class", "escapebutton");
-        galerylightbox.appendChild(escapelightbox);
-        escapelightbox.addEventListener("click", function () {
-            setTimeout(function () {
-                documentbody.removeChild(galerylightbox);
-            }, 300);
-
-        });
-        var galeryorganizer = document.createElement("div");//zum platzieren einzelner objekte in css
-        galeryorganizer.setAttribute("class", "inner-lightbox");
-
-        var galeryactiveimg = document.createElement("img");//hauptimage
-        activeImgAttributes = event.target.parentElement.getAttribute("href");//hole mir link von geklicktem img
-
-        galeryactiveimg.setAttribute("src", activeImgAttributes);//set img
-        galeryactiveimg.setAttribute("class", "activegaleryimg");//set css for active img
-
-        var galeryButtonBack = document.createElement("i");//backbutton
-        galeryButtonBack.setAttribute("class", "galerybackbutton left-i");
-
-        var galeryButtonForward = document.createElement("i");//forw-button
-        galeryButtonForward.setAttribute("class", "galeryforwardbutton right-i");
-
+        galerylightbox.appendChild(escapelightbox);*/
         var exitCnt = document.createElement("div");
         exitCnt.setAttribute("class", "exit-cnt");
 
@@ -54,12 +33,50 @@ document.addEventListener("DOMContentLoaded", function () {
         exitCnt.appendChild(galeryX1);
         exitCnt.appendChild(galeryX2);
 
+        exitCnt.addEventListener("click", function () {
+            setTimeout(function () {
+                documentmain.removeChild(galerylightbox);
+            }, 300);
+
+        });
+        var galeryorganizer = document.createElement("div");//zum platzieren einzelner objekte in css
+        galeryorganizer.setAttribute("class", "inner-lightbox");
+
+        var galeryactiveimg = document.createElement("img");//hauptimage
+        activeImgAttributes = event.target.parentElement.getAttribute("href");//hole mir link von geklicktem img
+
+        galeryactiveimg.setAttribute("src", activeImgAttributes);//set img
+        galeryactiveimg.setAttribute("class", "activegaleryimg");//set css for active img
+
+        var buttonCntBack = document.createElement("div");
+        buttonCntBack.setAttribute("class", "buttonCnt-Back");
+
+        var galeryButtonBack = document.createElement("i");//backbutton
+        galeryButtonBack.setAttribute("class", "galerybackbutton left-i");
+
+        buttonCntBack.appendChild(galeryButtonBack);
+
+
+        var buttonCntForw = document.createElement("div");
+        buttonCntForw.setAttribute("class", "buttonCnt-Forw");
+
+        var galeryButtonForward = document.createElement("i");//forw-button
+        galeryButtonForward.setAttribute("class", "galeryforwardbutton right-i");
+
+        buttonCntForw.appendChild(galeryButtonForward);
+
+
+
+
         //platzieren der erstellten objekte
-        galerylightbox.appendChild(galeryorganizer);//div for flex items
         galerylightbox.appendChild(exitCnt);
-        galeryorganizer.appendChild(galeryButtonBack);//setze img mit buttons
+        galerylightbox.appendChild(galeryorganizer);//div for flex items
+        galeryorganizer.appendChild(buttonCntBack);
+        /*galeryorganizer.appendChild(galeryButtonBack);//setze img mit buttons*/
         galeryorganizer.appendChild(galeryactiveimg);//--
-        galeryorganizer.appendChild(galeryButtonForward);//--
+        galeryorganizer.appendChild(buttonCntForw);
+        /*galeryorganizer.appendChild(galeryButtonForward);//--*/
+
 
 
 
@@ -86,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         };
-        galeryButtonBack.addEventListener("click", function () {
+        buttonCntBack.addEventListener("click", function () {
             actualvalue = parseInt(actualvalue);
             if (actualvalue == 0 || actualvalue == -1) {
                 actualvalue = 6;
@@ -114,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         });
-        galeryButtonForward.addEventListener("click", function () {
+        buttonCntForw.addEventListener("click", function () {
 
             if (actualvalue == 7) {
                 actualvalue = -1;
