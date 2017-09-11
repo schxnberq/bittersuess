@@ -214,6 +214,7 @@ header {
     padding: 0 10%;
     margin: 1% 0;
     height: 8vh;
+    /*box-shadow: 2px 3px 20px rgba(0,0,0,0.2);*/
     /* &__overlay {
        position: fixed;
        width: 100vw;
@@ -452,7 +453,8 @@ header {
     justify-content: center;
     flex-flow: column nowrap;
     padding: 3.35em 0 0 5em;
-    margin-left: 17.5%; }
+    margin-left: 17.5%;
+    height: 100em; }
     .main-content .overview__list {
       width: 100%;
       display: flex;

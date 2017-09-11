@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1540626d-3b24-442a-8fdb-860ee419bba2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pralinen.html" afterPath="$PROJECT_DIR$/pralinen.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,11 @@
           <file leaf-file-name="pralinen.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pralinen.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="356">
-                  <caret line="168" column="8" lean-forward="false" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
+                <state relative-caret-position="337">
+                  <caret line="167" column="14" lean-forward="true" selection-start-line="167" selection-start-column="14" selection-end-line="167" selection-end-column="14" />
                   <folding>
-                    <marker date="1505146528000" expanded="true" signature="1734:1902" ph="..." />
-                    <marker date="1505146528000" expanded="true" signature="1778:1887" ph="..." />
+                    <marker date="1505146538000" expanded="true" signature="1734:1902" ph="..." />
+                    <marker date="1505146538000" expanded="true" signature="1778:1887" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -131,13 +131,13 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="315" column="49" lean-forward="true" selection-start-line="315" selection-start-column="49" selection-end-line="315" selection-end-column="49" />
+                <state relative-caret-position="301">
+                  <caret line="642" column="18" lean-forward="false" selection-start-line="642" selection-start-column="18" selection-end-line="642" selection-end-column="18" />
                   <folding>
-                    <element signature="e#16831#17637#0" expanded="false" />
-                    <element signature="e#17676#18670#0" expanded="false" />
-                    <element signature="e#22202#23364#0" expanded="false" />
-                    <marker date="1505146465000" expanded="true" signature="6499:6770" ph="{...}" />
+                    <element signature="e#16851#17657#0" expanded="false" />
+                    <element signature="e#17696#18690#0" expanded="false" />
+                    <element signature="e#22222#23384#0" expanded="false" />
+                    <marker date="1505146685000" expanded="true" signature="6499:6770" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -264,8 +264,8 @@
         <option value="$PROJECT_DIR$/grandcru.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/ueber.js" />
-        <option value="$PROJECT_DIR$/sass/main.scss" />
         <option value="$PROJECT_DIR$/pralinen.html" />
+        <option value="$PROJECT_DIR$/sass/main.scss" />
       </list>
     </option>
   </component>
@@ -497,7 +497,7 @@
       <workItem from="1504865392662" duration="1146000" />
       <workItem from="1505108791778" duration="1381000" />
       <workItem from="1505126542218" duration="11600000" />
-      <workItem from="1505146202238" duration="321000" />
+      <workItem from="1505146202238" duration="485000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;NEW COMMIT&quot;">
       <created>1504693627906</created>
@@ -569,11 +569,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505137367864</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&quot;NO TEXT DEBUG&quot;">
+      <created>1505146541757</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1505146541757</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110879000" />
+    <option name="totallyTimeSpent" value="111043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
@@ -634,7 +641,8 @@
     <MESSAGE value="&quot;NEW FONTS&quot;" />
     <MESSAGE value="&quot;NEW LINKS HOME&quot;" />
     <MESSAGE value="&quot;NEW TOUCH GALLERY&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;NEW TOUCH GALLERY&quot;" />
+    <MESSAGE value="&quot;NO TEXT DEBUG&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;NO TEXT DEBUG&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -671,8 +679,8 @@
         <state relative-caret-position="779">
           <caret line="41" column="47" lean-forward="true" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
           <folding>
-            <marker date="1505146528000" expanded="true" signature="1734:1902" ph="..." />
-            <marker date="1505146528000" expanded="true" signature="1778:1887" ph="..." />
+            <marker date="1505146538000" expanded="true" signature="1734:1902" ph="..." />
+            <marker date="1505146538000" expanded="true" signature="1778:1887" ph="..." />
           </folding>
         </state>
       </provider>
@@ -697,10 +705,10 @@
         <state relative-caret-position="6460">
           <caret line="340" column="28" lean-forward="false" selection-start-line="340" selection-start-column="28" selection-end-line="340" selection-end-column="28" />
           <folding>
-            <element signature="e#16831#17637#0" expanded="false" />
-            <element signature="e#17676#18670#0" expanded="false" />
-            <element signature="e#22202#23364#0" expanded="false" />
-            <marker date="1505146465000" expanded="true" signature="6499:6770" ph="{...}" />
+            <element signature="e#16851#17657#0" expanded="false" />
+            <element signature="e#17696#18690#0" expanded="false" />
+            <element signature="e#22222#23384#0" expanded="false" />
+            <marker date="1505146685000" expanded="true" signature="6499:6770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -748,10 +756,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16831#17637#0" expanded="false" />
-            <element signature="e#17676#18670#0" expanded="false" />
-            <element signature="e#22202#23364#0" expanded="false" />
-            <marker date="1505146465000" expanded="true" signature="6499:6770" ph="{...}" />
+            <element signature="e#16851#17657#0" expanded="false" />
+            <element signature="e#17696#18690#0" expanded="false" />
+            <element signature="e#22222#23384#0" expanded="false" />
+            <marker date="1505146685000" expanded="true" signature="6499:6770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -799,10 +807,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16831#17637#0" expanded="false" />
-            <element signature="e#17676#18670#0" expanded="false" />
-            <element signature="e#22202#23364#0" expanded="false" />
-            <marker date="1505146465000" expanded="true" signature="6499:6770" ph="{...}" />
+            <element signature="e#16851#17657#0" expanded="false" />
+            <element signature="e#17696#18690#0" expanded="false" />
+            <element signature="e#22222#23384#0" expanded="false" />
+            <marker date="1505146685000" expanded="true" signature="6499:6770" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1031,26 +1039,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/pralinen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="315" column="49" lean-forward="true" selection-start-line="315" selection-start-column="49" selection-end-line="315" selection-end-column="49" />
+        <state relative-caret-position="337">
+          <caret line="167" column="14" lean-forward="true" selection-start-line="167" selection-start-column="14" selection-end-line="167" selection-end-column="14" />
           <folding>
-            <element signature="e#16831#17637#0" expanded="false" />
-            <element signature="e#17676#18670#0" expanded="false" />
-            <element signature="e#22202#23364#0" expanded="false" />
-            <marker date="1505146465000" expanded="true" signature="6499:6770" ph="{...}" />
+            <marker date="1505146538000" expanded="true" signature="1734:1902" ph="..." />
+            <marker date="1505146538000" expanded="true" signature="1778:1887" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pralinen.html">
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="168" column="8" lean-forward="false" selection-start-line="168" selection-start-column="8" selection-end-line="168" selection-end-column="8" />
+        <state relative-caret-position="301">
+          <caret line="642" column="18" lean-forward="false" selection-start-line="642" selection-start-column="18" selection-end-line="642" selection-end-column="18" />
           <folding>
-            <marker date="1505146528000" expanded="true" signature="1734:1902" ph="..." />
-            <marker date="1505146528000" expanded="true" signature="1778:1887" ph="..." />
+            <element signature="e#16851#17657#0" expanded="false" />
+            <element signature="e#17696#18690#0" expanded="false" />
+            <element signature="e#22222#23384#0" expanded="false" />
+            <marker date="1505146685000" expanded="true" signature="6499:6770" ph="{...}" />
           </folding>
         </state>
       </provider>
