@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1540626d-3b24-442a-8fdb-860ee419bba2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ueber.js" afterPath="$PROJECT_DIR$/js/ueber.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/360.html" afterPath="$PROJECT_DIR$/ueber/360.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/filme.html" afterPath="$PROJECT_DIR$/ueber/filme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/impressionen.html" afterPath="$PROJECT_DIR$/ueber/impressionen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/preise.html" afterPath="$PROJECT_DIR$/ueber/preise.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/presse.html" afterPath="$PROJECT_DIR$/ueber/presse.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -481,7 +472,7 @@
       <workItem from="1504863052200" duration="1045000" />
       <workItem from="1504865392662" duration="1146000" />
       <workItem from="1505108791778" duration="1381000" />
-      <workItem from="1505126542218" duration="8621000" />
+      <workItem from="1505126542218" duration="8835000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;NEW COMMIT&quot;">
       <created>1504693627906</created>
@@ -532,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505130422408</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;NEW FONTS&quot;">
+      <created>1505135341693</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1505135341693</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107579000" />
+    <option name="totallyTimeSpent" value="107793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
