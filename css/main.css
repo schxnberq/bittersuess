@@ -454,7 +454,7 @@ header {
     flex-flow: column nowrap;
     padding: 3.35em 0 0 5em;
     margin-left: 17.5%;
-    height: 100em; }
+    height: 2000px; }
     .main-content .overview__list {
       width: 100%;
       display: flex;
@@ -653,7 +653,7 @@ i {
 /* ------ FOOTER -------*/
 footer {
   width: 100%;
-  height: 50vh; }
+  height: 500px; }
   footer .footer-cnt {
     width: 100%;
     padding: 0 10%;
@@ -1046,8 +1046,8 @@ footer {
 
   footer .footer-cnt {
     position: relative;
-    margin-top: 25vw;
-    margin-bottom: 5em; }
+    /*margin-top: 25vw;*/
+    /*margin-bottom: 5em;*/ }
     footer .footer-cnt__list {
       flex-flow: column;
       align-items: center;
