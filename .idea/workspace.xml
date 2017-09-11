@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1540626d-3b24-442a-8fdb-860ee419bba2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ueber.js" afterPath="$PROJECT_DIR$/js/ueber.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +20,7 @@
           <file leaf-file-name="pralinen.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pralinen.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-308">
+                <state relative-caret-position="190">
                   <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
                   <folding>
                     <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -40,21 +41,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ueber.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ueber/ueber.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="93">
-                  <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="impressionen.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="impressionen.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/impressionen.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="246">
-                  <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+                <state relative-caret-position="190">
+                  <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="50" />
                   <folding />
                 </state>
               </provider>
@@ -63,7 +54,7 @@
           <file leaf-file-name="preise.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/preise.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="765">
+                <state relative-caret-position="1083">
                   <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
                   <folding />
                 </state>
@@ -73,7 +64,7 @@
           <file leaf-file-name="presse.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/presse.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="592">
+                <state relative-caret-position="1083">
                   <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
                   <folding />
                 </state>
@@ -83,7 +74,7 @@
           <file leaf-file-name="360.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/360.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="754">
+                <state relative-caret-position="1083">
                   <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
                   <folding />
                 </state>
@@ -93,7 +84,7 @@
           <file leaf-file-name="filme.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ueber/filme.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="507">
+                <state relative-caret-position="1083">
                   <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
                   <folding />
                 </state>
@@ -103,8 +94,30 @@
           <file leaf-file-name="grandcru_solo.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grandcru_solo.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="49" selection-end-column="14" />
+                <state relative-caret-position="190">
+                  <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="grandcru.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grandcru.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="6" column="118" lean-forward="true" selection-start-line="6" selection-start-column="118" selection-end-line="6" selection-end-column="118" />
+                  <folding>
+                    <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="261">
+                  <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -114,7 +127,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="545">
@@ -129,11 +142,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ueber.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ueber.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/ueber.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="313">
-                  <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+                <state relative-caret-position="508">
+                  <caret line="141" column="34" lean-forward="true" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -172,8 +185,18 @@
           <file leaf-file-name="onepage.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/onepage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+                <state relative-caret-position="209">
+                  <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ueber-swipe.js" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/ueber-swipe.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="574">
+                  <caret line="132" column="8" lean-forward="false" selection-start-line="132" selection-start-column="8" selection-end-line="186" selection-end-column="74" />
                   <folding />
                 </state>
               </provider>
@@ -223,9 +246,7 @@
         <option value="$PROJECT_DIR$/pralinen_single.html" />
         <option value="$PROJECT_DIR$/js/smooth-scroll.js" />
         <option value="$PROJECT_DIR$/sass/_vars.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$USER_HOME$/Downloads/AktuelleVersion/main copy.scss" />
-        <option value="$PROJECT_DIR$/grandcru.html" />
         <option value="$PROJECT_DIR$/allerlei.html" />
         <option value="$PROJECT_DIR$/allerlei_solo.html" />
         <option value="$PROJECT_DIR$/js/onepage.js" />
@@ -234,14 +255,16 @@
         <option value="$PROJECT_DIR$/pralinen_solo.html" />
         <option value="$PROJECT_DIR$/pralinen.html" />
         <option value="$PROJECT_DIR$/ueber/ueber.html" />
-        <option value="$PROJECT_DIR$/grandcru_solo.html" />
         <option value="$PROJECT_DIR$/ueber/filme.html" />
         <option value="$PROJECT_DIR$/ueber/360.html" />
         <option value="$PROJECT_DIR$/ueber/presse.html" />
         <option value="$PROJECT_DIR$/ueber/preise.html" />
         <option value="$PROJECT_DIR$/ueber/impressionen.html" />
-        <option value="$PROJECT_DIR$/js/ueber.js" />
         <option value="$PROJECT_DIR$/sass/main.scss" />
+        <option value="$PROJECT_DIR$/grandcru_solo.html" />
+        <option value="$PROJECT_DIR$/grandcru.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/ueber.js" />
       </list>
     </option>
   </component>
@@ -472,7 +495,7 @@
       <workItem from="1504863052200" duration="1045000" />
       <workItem from="1504865392662" duration="1146000" />
       <workItem from="1505108791778" duration="1381000" />
-      <workItem from="1505126542218" duration="8835000" />
+      <workItem from="1505126542218" duration="10370000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;NEW COMMIT&quot;">
       <created>1504693627906</created>
@@ -530,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505135341693</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;NEW LINKS HOME&quot;">
+      <created>1505136494515</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1505136494515</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107793000" />
+    <option name="totallyTimeSpent" value="109328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
@@ -593,21 +623,16 @@
     <MESSAGE value="&quot;NEWEST VERSION 001&quot;" />
     <MESSAGE value="&quot;NEW WITH GALLERY&quot;" />
     <MESSAGE value="&quot;NEW FONTS&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;NEW FONTS&quot;" />
+    <MESSAGE value="&quot;NEW LINKS HOME&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;NEW LINKS HOME&quot;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -833,13 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_vars.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -877,24 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grandcru.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="47" lean-forward="false" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/onepage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/niklas galerie/ueber copy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -910,14 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pralinen_solo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ueber/ueber.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -926,70 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/presse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/preise.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pralinen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1505128972000" expanded="true" signature="2492:2660" ph="..." />
-            <marker date="1505128972000" expanded="true" signature="2536:2645" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/360.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ueber/filme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grandcru_solo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="49" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/ueber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1009,8 +941,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ueber/impressionen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        <state relative-caret-position="190">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/preise.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/360.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/filme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pralinen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1505128972000" expanded="true" signature="2492:2660" ph="..." />
+            <marker date="1505128972000" expanded="true" signature="2536:2645" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ueber/presse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="49" column="14" lean-forward="false" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pralinen_solo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grandcru_solo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grandcru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="6" column="118" lean-forward="true" selection-start-line="6" selection-start-column="118" selection-end-line="6" selection-end-column="118" />
+          <folding>
+            <element signature="n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/onepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ueber-swipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="132" column="8" lean-forward="false" selection-start-line="132" selection-start-column="8" selection-end-line="186" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ueber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="141" column="34" lean-forward="true" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
           <folding />
         </state>
       </provider>
