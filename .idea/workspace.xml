@@ -3,18 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1540626d-3b24-442a-8fdb-860ee419bba2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grandcru.html" afterPath="$PROJECT_DIR$/grandcru.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grandcru_solo.html" afterPath="$PROJECT_DIR$/grandcru_solo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pralinen.html" afterPath="$PROJECT_DIR$/pralinen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pralinen_solo.html" afterPath="$PROJECT_DIR$/pralinen_solo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/360.html" afterPath="$PROJECT_DIR$/ueber/360.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/filme.html" afterPath="$PROJECT_DIR$/ueber/filme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/impressionen.html" afterPath="$PROJECT_DIR$/ueber/impressionen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/preise.html" afterPath="$PROJECT_DIR$/ueber/preise.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ueber/presse.html" afterPath="$PROJECT_DIR$/ueber/presse.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -139,13 +128,13 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="1686" column="18" lean-forward="false" selection-start-line="1686" selection-start-column="18" selection-end-line="1686" selection-end-column="18" />
+                <state relative-caret-position="676">
+                  <caret line="1568" column="6" lean-forward="false" selection-start-line="1568" selection-start-column="6" selection-end-line="1568" selection-end-column="6" />
                   <folding>
                     <element signature="e#16913#17719#0" expanded="false" />
                     <element signature="e#17758#18752#0" expanded="false" />
                     <element signature="e#22284#23446#0" expanded="false" />
-                    <marker date="1505223067000" expanded="true" signature="6502:6773" ph="{...}" />
+                    <marker date="1505223163000" expanded="true" signature="6502:6773" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -440,7 +429,7 @@
       <workItem from="1505108791778" duration="1381000" />
       <workItem from="1505126542218" duration="11600000" />
       <workItem from="1505146202238" duration="2765000" />
-      <workItem from="1505217662893" duration="3129000" />
+      <workItem from="1505217662893" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;NEW COMMIT&quot;">
       <created>1504693627906</created>
@@ -561,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505218698815</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="&quot;FINAL DEBUG&quot;">
+      <created>1505223089586</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1505223089586</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116452000" />
+    <option name="totallyTimeSpent" value="116538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
@@ -632,7 +628,8 @@
     <MESSAGE value="&quot;RESET&quot;" />
     <MESSAGE value="&quot;FLOAT DEBUG CHECK&quot;" />
     <MESSAGE value="&quot;HEIGHT FOOTER DEBUG&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;HEIGHT FOOTER DEBUG&quot;" />
+    <MESSAGE value="&quot;FINAL DEBUG&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;FINAL DEBUG&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,7 +695,7 @@
             <element signature="e#16913#17719#0" expanded="false" />
             <element signature="e#17758#18752#0" expanded="false" />
             <element signature="e#22284#23446#0" expanded="false" />
-            <marker date="1505223067000" expanded="true" signature="6502:6773" ph="{...}" />
+            <marker date="1505223163000" expanded="true" signature="6502:6773" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -749,7 +746,7 @@
             <element signature="e#16913#17719#0" expanded="false" />
             <element signature="e#17758#18752#0" expanded="false" />
             <element signature="e#22284#23446#0" expanded="false" />
-            <marker date="1505223067000" expanded="true" signature="6502:6773" ph="{...}" />
+            <marker date="1505223163000" expanded="true" signature="6502:6773" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -800,7 +797,7 @@
             <element signature="e#16913#17719#0" expanded="false" />
             <element signature="e#17758#18752#0" expanded="false" />
             <element signature="e#22284#23446#0" expanded="false" />
-            <marker date="1505223067000" expanded="true" signature="6502:6773" ph="{...}" />
+            <marker date="1505223163000" expanded="true" signature="6502:6773" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1042,13 +1039,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="1686" column="18" lean-forward="false" selection-start-line="1686" selection-start-column="18" selection-end-line="1686" selection-end-column="18" />
+        <state relative-caret-position="676">
+          <caret line="1568" column="6" lean-forward="false" selection-start-line="1568" selection-start-column="6" selection-end-line="1568" selection-end-column="6" />
           <folding>
             <element signature="e#16913#17719#0" expanded="false" />
             <element signature="e#17758#18752#0" expanded="false" />
             <element signature="e#22284#23446#0" expanded="false" />
-            <marker date="1505223067000" expanded="true" signature="6502:6773" ph="{...}" />
+            <marker date="1505223163000" expanded="true" signature="6502:6773" ph="{...}" />
           </folding>
         </state>
       </provider>
