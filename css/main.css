@@ -203,18 +203,18 @@ h1, h2, h3, h4, h5, h6 {
 header {
   height: auto;
   width: 100%;
-  position: relative;
+  position: fixed;
   top: 0;
-  z-index: 99; }
+  z-index: 99;
+  /*box-shadow: 2px 3px 20px rgba(0,0,0,0.1);*/ }
   header .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin: 0.25% 0;
     padding: 0 10%;
-    margin: 1% 0;
     height: 8vh;
-    /*box-shadow: 2px 3px 20px rgba(0,0,0,0.2);*/
     /* &__overlay {
        position: fixed;
        width: 100vw;
@@ -369,24 +369,27 @@ header {
   width: 100%;
   padding: 0 10%;
   display: flex;
-  margin-top: 17.5vh; }
+  margin-top: 20.5vh;
+  position: relative; }
+  .main__menu__h1 {
+    font-size: 3.4em;
+    align-self: flex-start;
+    color: #5c452b;
+    letter-spacing: 6px;
+    font-weight: 400;
+    z-index: -1;
+    position: fixed; }
+    .main__menu__h1 em {
+      font-style: normal;
+      color: #E7599A; }
   .main__menu {
     flex-basis: 15%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
-    position: fixed; }
-    .main__menu__h1 {
-      font-size: 3.4em;
-      align-self: flex-start;
-      color: #5c452b;
-      letter-spacing: 6px;
-      font-weight: 400;
-      z-index: -1; }
-      .main__menu__h1 em {
-        font-style: normal;
-        color: #E7599A; }
+    position: fixed;
+    margin-top: 4em; }
     .main__menu .backtoview {
       display: block;
       margin-top: 8px;
@@ -464,12 +467,13 @@ header {
         flex-basis: calc(25% - 4px);
         margin: 0 4px 4px 0;
         z-index: 0;
-        /*float: left;*/
+        float: left;
         width: calc(25% - 8px); }
         .main-content .overview__list__item a {
           text-decoration: none;
           color: inherit;
-          color: #5c452b; }
+          color: #5c452b;
+          display: block; }
           .main-content .overview__list__item a img {
             width: 100%;
             display: block; }
@@ -995,7 +999,8 @@ footer {
     margin-top: 20vh; }
     .main-content {
       padding: 0;
-      margin: 0; }
+      margin: 0;
+      flex-basis: 0; }
       .main-content .solo-cnt {
         margin-top: 5em; }
         .main-content .solo-cnt .solo-cnt__item {
@@ -1050,6 +1055,8 @@ footer {
       flex-flow: column;
       align-items: center;
       font-size: 5vw; }
+      footer .footer-cnt__list__item {
+        padding: 1% 0; }
 
   .main__menu__h1 {
     font-size: 7vw; }
@@ -1066,9 +1073,7 @@ footer {
     flex-basis: 50%; }
 
   .main__menu {
-    position: relative; }
-    .main__menu__list {
-      display: none; }
+    display: none; }
 
   .overview {
     padding: 0;
