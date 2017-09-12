@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   height: auto;
   width: 100%;
-  position: fixed;
+  position: relative;
   top: 0;
   z-index: 99;
 
@@ -928,7 +928,7 @@ footer {
 
     &__list {
       width: 90%;
-      height: 3vh;
+      height: auto;
       @include listreset;
       display: flex;
       justify-content: space-around;

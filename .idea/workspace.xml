@@ -130,13 +130,13 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="550">
-                  <caret line="1623" column="31" lean-forward="true" selection-start-line="1623" selection-start-column="31" selection-end-line="1623" selection-end-column="31" />
+                <state relative-caret-position="409">
+                  <caret line="1216" column="10" lean-forward="true" selection-start-line="1216" selection-start-column="10" selection-end-line="1216" selection-end-column="10" />
                   <folding>
-                    <element signature="e#16838#17644#0" expanded="false" />
-                    <element signature="e#17683#18677#0" expanded="false" />
-                    <element signature="e#22209#23371#0" expanded="false" />
-                    <marker date="1505217669000" expanded="true" signature="6499:6770" ph="{...}" />
+                    <element signature="e#16842#17648#0" expanded="false" />
+                    <element signature="e#17687#18681#0" expanded="false" />
+                    <element signature="e#22213#23375#0" expanded="false" />
+                    <marker date="1505218218000" expanded="true" signature="6502:6773" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -414,7 +414,7 @@
       <workItem from="1505108791778" duration="1381000" />
       <workItem from="1505126542218" duration="11600000" />
       <workItem from="1505146202238" duration="2765000" />
-      <workItem from="1505217662893" duration="75000" />
+      <workItem from="1505217662893" duration="802000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;NEW COMMIT&quot;">
       <created>1504693627906</created>
@@ -521,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505150478812</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&quot;FLOAT DEBUG CHECK&quot;">
+      <created>1505217750460</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1505217750460</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113398000" />
+    <option name="totallyTimeSpent" value="114125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
@@ -590,7 +597,8 @@
     <MESSAGE value="&quot;NO TEXT DEBUG + HEIGHT&quot;" />
     <MESSAGE value="&quot;NO TEXT DEBUG + HEIGHT (FOOTER) &quot;" />
     <MESSAGE value="&quot;RESET&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;RESET&quot;" />
+    <MESSAGE value="&quot;FLOAT DEBUG CHECK&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;FLOAT DEBUG CHECK&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,10 +661,10 @@
         <state relative-caret-position="6460">
           <caret line="340" column="28" lean-forward="false" selection-start-line="340" selection-start-column="28" selection-end-line="340" selection-end-column="28" />
           <folding>
-            <element signature="e#16838#17644#0" expanded="false" />
-            <element signature="e#17683#18677#0" expanded="false" />
-            <element signature="e#22209#23371#0" expanded="false" />
-            <marker date="1505217669000" expanded="true" signature="6499:6770" ph="{...}" />
+            <element signature="e#16842#17648#0" expanded="false" />
+            <element signature="e#17687#18681#0" expanded="false" />
+            <element signature="e#22213#23375#0" expanded="false" />
+            <marker date="1505218218000" expanded="true" signature="6502:6773" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -704,10 +712,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16838#17644#0" expanded="false" />
-            <element signature="e#17683#18677#0" expanded="false" />
-            <element signature="e#22209#23371#0" expanded="false" />
-            <marker date="1505217669000" expanded="true" signature="6499:6770" ph="{...}" />
+            <element signature="e#16842#17648#0" expanded="false" />
+            <element signature="e#17687#18681#0" expanded="false" />
+            <element signature="e#22213#23375#0" expanded="false" />
+            <marker date="1505218218000" expanded="true" signature="6502:6773" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -755,10 +763,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#16838#17644#0" expanded="false" />
-            <element signature="e#17683#18677#0" expanded="false" />
-            <element signature="e#22209#23371#0" expanded="false" />
-            <marker date="1505217669000" expanded="true" signature="6499:6770" ph="{...}" />
+            <element signature="e#16842#17648#0" expanded="false" />
+            <element signature="e#17687#18681#0" expanded="false" />
+            <element signature="e#22213#23375#0" expanded="false" />
+            <marker date="1505218218000" expanded="true" signature="6502:6773" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1000,13 +1008,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="1623" column="31" lean-forward="true" selection-start-line="1623" selection-start-column="31" selection-end-line="1623" selection-end-column="31" />
+        <state relative-caret-position="409">
+          <caret line="1216" column="10" lean-forward="true" selection-start-line="1216" selection-start-column="10" selection-end-line="1216" selection-end-column="10" />
           <folding>
-            <element signature="e#16838#17644#0" expanded="false" />
-            <element signature="e#17683#18677#0" expanded="false" />
-            <element signature="e#22209#23371#0" expanded="false" />
-            <marker date="1505217669000" expanded="true" signature="6499:6770" ph="{...}" />
+            <element signature="e#16842#17648#0" expanded="false" />
+            <element signature="e#17687#18681#0" expanded="false" />
+            <element signature="e#22213#23375#0" expanded="false" />
+            <marker date="1505218218000" expanded="true" signature="6502:6773" ph="{...}" />
           </folding>
         </state>
       </provider>
