@@ -195,15 +195,18 @@ h1, h2, h3, h4, h5, h6 {
 
           & span {
             color: white;
-            font-size: 2.65em;
+            font-size: 2.6em;
             text-align: center;
             position: absolute;
             left: 50%;
             top: 50%;
             opacity: 0;
+            width: 100%;
+            display: block;
             transform: translate(-50%, -45%);
-            @include transition(transform, .5s, ease);
+            @include transition(all, .5s, ease);
             z-index: 3;
+            line-height: 1em;
           }
 
           &:hover:after {
@@ -301,15 +304,17 @@ h1, h2, h3, h4, h5, h6 {
 
           & span {
             color: white;
-            font-size: 2.65em;
+            font-size: 2.6em;
             text-align: center;
             position: absolute;
             left: 50%;
             top: 50%;
             opacity: 0;
+            width: 100%;
             transform: translate(-50%, -45%);
-            @include transition(transform, .5s, ease);
+            @include transition(all, .5s, ease);
             z-index: 3;
+            line-height: 1em;
           }
 
           &:hover:after {
@@ -386,15 +391,17 @@ h1, h2, h3, h4, h5, h6 {
 
           & span {
             color: white;
-            font-size: 2.65em;
+            font-size: 2.6em;
             text-align: center;
             position: absolute;
             left: 50%;
             top: 50%;
             opacity: 0;
+            width: 100%;
             transform: translate(-50%, -45%);
-            @include transition(transform, .5s, ease);
+            @include transition(all, .5s, ease);
             z-index: 3;
+            line-height: 1em;
           }
 
           &:hover:after {
