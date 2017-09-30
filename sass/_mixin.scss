@@ -15,3 +15,11 @@
   color: $color;
   font-family: $family;
 }
+
+@mixin transition ($type: all, $dur: .3s, $ease: ease) {
+  -webkit-transition: $type $dur $ease;
+  -moz-transition: $type $dur $ease;
+  -ms-transition: $type $dur $ease;
+  -o-transition: $type $dur $ease;
+  transition: $type $dur $ease;
+}

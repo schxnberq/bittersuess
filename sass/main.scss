@@ -7,6 +7,7 @@ html, body {
   margin: 0;
   padding: 0;
   @include font(1em, 300);
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -145,9 +146,14 @@ h1, h2, h3, h4, h5, h6 {
 -----------------*/
 .home {
   width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+
   &__grid {
     padding: 4em 0;
-    width: 80%;
+    width: 75%;
     max-width: 1440px;
     min-height: 70vh;
     margin: 0 auto;
@@ -162,10 +168,53 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         height: auto;
 
-        & img {
+        & a {
           display: block;
-          width: 100%;
-          height: 100%;
+          position: relative;
+          @include linkreset;
+
+          &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: RGBA(231, 89, 154, 0.65);
+            top: 0;
+            left: 0;
+            z-index: 0;
+            opacity: 0;
+            @include transition(all, .5s, ease);
+          }
+
+          & img {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+
+          & span {
+            color: white;
+            font-size: 2.65em;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            opacity: 0;
+            transform: translate(-50%, -45%);
+            @include transition(transform, .5s, ease);
+            z-index: 3;
+          }
+
+          &:hover:after {
+            opacity: 1;
+          }
+
+          &:hover span {
+            opacity: 1;
+            transform: translate(-50%, -50%);
+          }
+
         }
 
       }
@@ -192,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
   &__flex {
-    width: 80%;
+    width: 75%;
     max-width: 1440px;
     margin: 0 auto;
     padding: 4em 0;
@@ -224,6 +273,56 @@ h1, h2, h3, h4, h5, h6 {
       }
       &__item {
         padding: .1em;
+
+        & a {
+          display: block;
+          position: relative;
+          @include linkreset;
+
+          &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: RGBA(231, 89, 154, 0.65);
+            top: 0;
+            left: 0;
+            z-index: 0;
+            opacity: 0;
+            @include transition(all, .5s, ease);
+          }
+
+          & img {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+
+          & span {
+            color: white;
+            font-size: 2.65em;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            opacity: 0;
+            transform: translate(-50%, -45%);
+            @include transition(transform, .5s, ease);
+            z-index: 3;
+          }
+
+          &:hover:after {
+            opacity: 1;
+          }
+
+          &:hover span {
+            opacity: 1;
+            transform: translate(-50%, -50%);
+          }
+
+        }
+
       }
 
       &__cnt-left {
@@ -243,10 +342,14 @@ h1, h2, h3, h4, h5, h6 {
 
   }
   &__float {
-    width: 80%;
+    width: 75%;
     max-width: 1440px;
     margin: 0 auto;
     padding: 4em 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
     &__cnt {
       width: 100%;
@@ -256,10 +359,53 @@ h1, h2, h3, h4, h5, h6 {
         display: inline-block;
         padding: .1em;
 
-        & img {
+        & a {
           display: block;
-          width: 100%;
-          height: 100%;
+          position: relative;
+          @include linkreset;
+
+          &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: RGBA(231, 89, 154, 0.65);
+            top: 0;
+            left: 0;
+            z-index: 0;
+            opacity: 0;
+            @include transition(all, .5s, ease);
+          }
+
+          & img {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+
+          & span {
+            color: white;
+            font-size: 2.65em;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            opacity: 0;
+            transform: translate(-50%, -45%);
+            @include transition(transform, .5s, ease);
+            z-index: 3;
+          }
+
+          &:hover:after {
+            opacity: 1;
+          }
+
+          &:hover span {
+            opacity: 1;
+            transform: translate(-50%, -50%);
+          }
+
         }
 
       }
@@ -315,7 +461,6 @@ header {
     padding: $cnt_padding;
 
     height: 8vh;
-
 
     &__logo {
       flex-basis: 25%;
@@ -535,7 +680,7 @@ header {
   width: 100%;
   padding: $cnt_padding;
   display: flex;
-  margin-top: 20.5vh;
+  margin-top: 15.5vh;
   position: relative;
 
   &__menu__h1 {
@@ -594,6 +739,7 @@ header {
       @include listreset;
       margin-left: 15%;
       align-self: flex-start;
+      width: 100%;
 
       &__item {
         color: $maincolor;
@@ -612,7 +758,7 @@ header {
           bottom: 0.45em;
           background-color: $maincolor;
           transform-origin: 0% 50%;
-          transform: scale3d(0, 1, 0);
+          transform: scaleX(0);
           -webkit-transition: all .75s cubic-bezier(0.19, 1, 0.22, 1);
           transition: all .75s cubic-bezier(0.19, 1, 0.22, 1);
         }
@@ -624,11 +770,11 @@ header {
         }
 
         &:hover:before {
-          transform: scale3d(1, 1, 1);
+          transform: scaleX(1);
         }
       }
       & .menu__active:before {
-        transform: scale3d(1, 1, 1);
+        transform: scaleX(1);
       }
     }
     & .ueber-list {
@@ -636,8 +782,6 @@ header {
       margin-left: 7.5%;
     }
   }
-
-
 
   &-content {
     flex-basis: 85%;
@@ -647,9 +791,7 @@ header {
     padding: 3.35em 0 0 5em;
     margin-left: 17.5%;
 
-
     & .overview {
-
 
       &__list {
         width: 100%;
@@ -692,6 +834,12 @@ header {
         justify-content: space-between;
         align-items: flex-start;
 
+
+        &:not(:first-child) {
+          padding-top: calc(15.5vh + 2.5em);
+          margin-bottom: calc(15.5vh + 2.5em);
+        }
+
         &__text {
           flex-basis: 45%;
           margin-top: 3em;
@@ -712,6 +860,39 @@ header {
           margin-top: 0.35em;
           font-size: 1.1em;
           letter-spacing: 1px;
+        }
+
+        & .kontakt-txt {
+          font-size: 1.1em;
+
+          & h3 {
+            margin-top: -.75em;
+            font-size: 1.8em;
+            font-weight: 300;
+
+            em {
+              display: block;
+              font-style: normal;
+              font-size: 1.3rem;
+            }
+          }
+          & p {
+
+            & a {
+              @include linkreset;
+              position: relative;
+              display: block;
+
+              &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 100%;
+
+              }
+            }
+          }
+
         }
 
         &__img {
@@ -790,11 +971,13 @@ header {
   margin-top: 15vh;
   max-width: 1440px;
 }
+
 .buttonCnt-Back, .buttonCnt-Forw {
   width: 6vw;
   cursor: pointer;
   text-align: center;
 }
+
 .galerybackbutton {
   width: 2vw;
   height: 2vw;
@@ -873,7 +1056,6 @@ ul.selected-lightbox-imgs {
   z-index: 99;
   cursor: pointer;
 
-
   & .galeryX {
     display: block;
     position: absolute;
@@ -924,7 +1106,6 @@ i {
 
 footer {
   width: 100%;
-
 
   .footer-cnt {
     width: 100%;
@@ -1058,11 +1239,40 @@ footer {
 
     &-content {
       padding: 2em 0 0 3em;
+
+      & .solo-cnt__item {
+
+        &:not(:first-child) {
+          padding-top: calc(12.5vh + 2.5em);
+          margin-bottom: calc(5.5vh + 2em);
+        }
+
+        &__text {
+          flex-basis: 30%;
+
+          & h2 {
+            font-size: 1.3em;
+          }
+          & span {
+            font-size: 0.8em;
+          }
+          & p {
+            font-size: 0.8em;
+          }
+        }
+        &__img {
+          flex-basis: 70%;
+        }
+      }
+
     }
 
     &__menu {
+      margin-top: 2.6em;
+
       &__h1 {
         font-size: 1.7em;
+        letter-spacing: 4px;
       }
       &__list {
         &__item {
@@ -1073,26 +1283,9 @@ footer {
           }
         }
       }
-    }
-    & .solo-cnt__item {
-      height: 100vh;
-      &__text {
-        flex-basis: 30%;
 
-        & h2 {
-          font-size: 1.3em;
-        }
-        & span {
-          font-size: 0.8em;
-        }
-        & p {
-          font-size: 0.8em;
-        }
-      }
-      &__img {
-        flex-basis: 70%;
-      }
     }
+
   }
 
   footer {
@@ -1388,7 +1581,7 @@ footer {
         }
       }
       & .solo-cnt__item {
-        flex-flow: column-reverse nowrap;
+        flex-flow: column nowrap;
 
         &__text {
           flex-basis: 10%;
@@ -1407,6 +1600,12 @@ footer {
         &__img {
           align-items: flex-start;
           flex-basis: 90%;
+
+          & img {
+            display: inline-block;
+            width: 70%;
+            transform: translateX(-42.5%);
+          }
         }
       }
     }
@@ -1430,6 +1629,8 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   //grid medias
   .home {
+    height: auto;
+
     &__grid {
       &__cnt {
         grid-template-columns: 33.33% 33.33% 33.33%;
@@ -1497,6 +1698,10 @@ footer {
 
     }
     &__float {
+      position: relative;
+      transform: translate(0, 0);
+      left: 0;
+
       &__cnt {
         width: 100%;
 
@@ -1552,7 +1757,11 @@ footer {
   .main__menu {
 
     & .backtoview {
-      font-size: 1.1em;
+      font-size: 0.85rem;
+
+      & span {
+        padding: 2px;
+      }
     }
 
   }
@@ -1564,9 +1773,7 @@ footer {
   header {
     background-color: rgba(249, 249, 249, 0.85);
 
-
     .nav {
-
 
       &__burger {
         display: block;
@@ -1586,6 +1793,7 @@ footer {
       padding: 0;
       margin: 0;
       flex-basis: 0;
+      display: block;
 
       & .solo-cnt {
         margin-top: 5em;
@@ -1609,6 +1817,7 @@ footer {
 
             & img {
               width: 100%;
+              transform: translate(0,0);
             }
           }
 
@@ -1631,6 +1840,7 @@ footer {
         margin: 0;
         margin-bottom: 16px;
         width: calc(50% - 8px);
+        clear: both;
 
         &:nth-child(2n) {
           margin-left: 16px;
@@ -1673,7 +1883,6 @@ footer {
 
   }
 
-
   footer .footer-cnt {
     position: relative;
     margin-top: 25vw;
@@ -1692,6 +1901,7 @@ footer {
   }
   .main__menu__h1 {
     font-size: 7vw;
+    position: relative;
   }
   .hiddenOnDesktop {
     display: block;
@@ -1729,6 +1939,8 @@ footer {
 
   //grid medias
   .home {
+    height: auto;
+
     &__grid {
       &__cnt {
         grid-template-columns: 50% 50%;
@@ -1799,6 +2011,9 @@ footer {
 
     }
     &__float {
+      position: relative;
+      transform: translate(0, 0);
+      left: 0;
 
       &__cnt {
         width: 100%;
