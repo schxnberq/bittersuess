@@ -512,7 +512,123 @@ header {
   padding: 0 10%;
   display: flex;
   margin-top: 15.5vh;
-  position: relative; }
+  position: relative;
+  /*& .lightbox-cnt {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    & .lightbox {
+      width: 100%;
+      height: auto;
+
+
+      &__exit {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        display: inline-block;
+        right: 9.5%;
+        cursor: pointer;
+        top: 8vh;
+
+        & span {
+          width: 85%;
+          height: 2px;
+          background-color: $maincolor;
+          position: absolute;
+          right: 50%;
+          top: 50%;
+          transform: translate(50%, -50%);
+          @include transition(all, .3s, cubic-bezier(0.175, 0.885, 0.32, 1.275));
+
+          &:nth-child(1) {
+            transform: translate(50%, -50%) rotate(45deg);
+          }
+          &:nth-child(2) {
+            transform: translate(50%, -50%) rotate(-45deg);
+          }
+        }
+        &:hover span:nth-child(1) {
+          transform: translate(50%, -50%) rotate(30deg);
+        }
+        &:hover span:nth-child(2) {
+          transform: translate(50%, -50%) rotate(-30deg);
+        }
+      }
+
+      & .slide-nav {
+        width: 10%;
+        height: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      &__prev {
+        left: 2.5%;
+
+        & span {
+          display: inline-block;
+          right: 5%;
+          border: $maincolor solid;
+          border-width: 0 2px 2px 0;
+          padding: 10px;
+          transform: rotate(135deg);
+        }
+
+      }
+      &__next {
+        right: 2.5%;
+
+        & span {
+          display: inline-block;
+          right: 5%;
+          border: $maincolor solid;
+          border-width: 0 2px 2px 0;
+          padding: 10px;
+          transform: rotate(-45deg);
+        }
+
+      }
+
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      &__img {
+        overflow-x: scroll;
+        display: inline-block;
+        white-space: nowrap;
+        min-width: 100%;
+
+
+        & img {
+          width: 80%;
+          max-width: 1440px;
+          display: inline-block;
+          padding-left: 20%;
+          margin-right:20%;
+
+          !*&:last-child {
+            margin-right: 20%;
+          }*!
+        }
+      }
+    }
+
+  }*/ }
   .main__menu__h1 {
     font-size: 3.4em;
     align-self: flex-start;
@@ -693,131 +809,103 @@ header {
           margin: 2px; }
           .main-content .gallery-cnt .gallery__list__item a {
             text-decoration: none;
-            color: inherit; }
+            color: inherit;
+            display: block; }
             .main-content .gallery-cnt .gallery__list__item a img {
               display: block;
               width: 100%; }
-
-.lightbox-navigation-li a img {
-  width: 97%;
-  margin: 1vw; }
-
-.galerylightbox {
-  position: fixed;
-  z-index: 101;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(250, 250, 250, 0.8);
-  top: 0;
-  left: 0; }
-
-.inner-lightbox {
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  margin-top: 15vh;
-  max-width: 1440px; }
-
-.buttonCnt-Back, .buttonCnt-Forw {
-  width: 6vw;
-  cursor: pointer;
-  text-align: center; }
-
-.galerybackbutton {
-  width: 2vw;
-  height: 2vw;
-  margin-top: 16vw;
-  transition: all 0.3s ease-in-out; }
-  .galerybackbutton:hover {
-    cursor: pointer; }
-
-.selected-lightbox-imgs {
-  margin: 2vw auto;
-  width: 81%;
-  display: none; }
-
-.activegaleryimg {
-  width: auto;
-  height: 35vw;
-  /*border: solid white 3px;*/ }
-
-.galeryforwardbutton {
-  width: 2vw;
-  height: 2vw;
-  margin-top: 16vw;
-  transition: all 0.3s ease-in-out; }
-  .galeryforwardbutton:hover {
-    cursor: pointer; }
-
-.escapebutton {
-  height: 18px;
-  width: 18px;
-  position: relative;
-  transform: rotate(45deg);
-  top: 7%;
-  left: 90%;
-  padding: 0.6em; }
-  .escapebutton::before {
-    content: '';
-    position: absolute;
+  .main .galerylightbox {
+    position: fixed;
+    z-index: 101;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(250, 250, 250, 0.8);
     top: 0;
-    bottom: 0;
-    width: 10%;
-    left: calc(50% - (30% / 2));
-    background-color: white; }
-  .escapebutton::after {
-    content: '';
-    position: absolute;
     left: 0;
-    right: 0;
-    width: 10%;
-    top: calc(50% - (30% / 2));
-    background-color: white; }
-  .escapebutton:hover {
-    cursor: pointer;
-    cursor: hand; }
-
-.exit-cnt {
-  height: 25px;
-  width: 40px;
-  position: relative;
-  top: 7%;
-  left: calc(90% - 40px);
-  z-index: 99;
-  cursor: pointer; }
-  .exit-cnt .galeryX {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .main .galerylightbox .slider {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+    .main .galerylightbox .frame {
+      width: 55vw;
+      max-width: 1200px;
+      position: relative;
+      font-size: 0;
+      line-height: 0;
+      overflow: hidden;
+      white-space: nowrap; }
+    .main .galerylightbox .slides {
+      display: inline-block; }
+    .main .galerylightbox li {
+      position: relative;
+      display: inline-block;
+      width: 55vw;
+      max-width: 1200px;
+      margin-right: 100px; }
+      .main .galerylightbox li img {
+        width: 100%; }
+    .main .galerylightbox .prev, .main .galerylightbox .next {
+      position: absolute;
+      top: 50%;
+      /* margin-top: -25px; */
+      display: block;
+      cursor: pointer;
+      height: 40%;
+      width: 10%;
+      transform: translateY(-50%);
+      /* background-color: white; */
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .main .galerylightbox .next {
+      right: 5%; }
+    .main .galerylightbox .prev {
+      left: 5%; }
+    .main .galerylightbox .next span, .main .galerylightbox .prev span {
+      display: inline-block;
+      border: solid #5c452b;
+      border-width: 0 3px 3px 0;
+      padding: 10px; }
+    .main .galerylightbox .next span {
+      transform: rotate(-45deg); }
+    .main .galerylightbox .prev span {
+      transform: rotate(135deg); }
+  .main .inner-lightbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px; }
+  .main .exit-cnt {
+    height: 50px;
+    width: 50px;
     position: absolute;
-    width: 25px;
-    height: 2px;
-    background-color: #5c452b;
-    transform: rotateX(0);
-    top: 50%;
-    right: 0%; }
-  .exit-cnt .x-one {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg); }
-  .exit-cnt .x-two {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg); }
-
-i {
-  border: solid #5c452b;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 2px; }
-
-.right-i {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg); }
-
-.left-i {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg); }
-
-.activeGalerieImgNavigation {
-  border: solid white 1px; }
+    top: 7%;
+    left: calc(90% - 40px);
+    z-index: 99;
+    cursor: pointer; }
+    .main .exit-cnt .galeryX {
+      display: block;
+      position: absolute;
+      width: 80%;
+      height: 2px;
+      background-color: #5c452b;
+      transform: rotateX(0);
+      top: 50%;
+      right: 0%; }
+    .main .exit-cnt .x-one {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg); }
+    .main .exit-cnt .x-two {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg); }
+  .main i {
+    border: solid #5c452b;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px; }
 
 /* ------ FOOTER -------*/
 footer {
@@ -1213,22 +1301,6 @@ footer {
           margin: 0;
           margin-left: 16px;
           margin-bottom: 16px; }
-    .main .inner-lightbox .buttonCnt-Back {
-      position: absolute;
-      bottom: 40%;
-      left: 10%; }
-      .main .inner-lightbox .buttonCnt-Back .galerybackbutton {
-        width: 5vw;
-        height: 5vw; }
-    .main .inner-lightbox .buttonCnt-Forw {
-      position: absolute;
-      bottom: 40%;
-      right: 10%; }
-      .main .inner-lightbox .buttonCnt-Forw .galeryforwardbutton {
-        width: 5vw;
-        height: 5vw; }
-    .main .inner-lightbox img {
-      height: 53.5vw; }
 
   footer .footer-cnt {
     position: relative;
