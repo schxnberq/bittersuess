@@ -378,9 +378,11 @@ header {
      }*/ }
     header .nav__logo {
       flex-basis: 25%; }
-      header .nav__logo a img {
-        width: 80%;
+      header .nav__logo a {
         display: block; }
+        header .nav__logo a img {
+          width: 80%;
+          display: block; }
     header .nav__burger {
       display: none;
       width: 75px;

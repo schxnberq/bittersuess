@@ -472,9 +472,14 @@ header {
     &__logo {
       flex-basis: 25%;
 
-      & a img {
-        width: 80%;
+      & a {
         display: block;
+
+        & img {
+          width: 80%;
+          display: block;
+        }
+
       }
     }
 
