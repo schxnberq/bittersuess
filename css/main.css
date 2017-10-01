@@ -965,6 +965,19 @@ footer {
       font-size: 0.9em; }
     .main .solo-cnt__item__text p {
       font-size: 0.85em; }
+  .main .ueber-solo {
+    flex-flow: column nowrap; }
+    .main .ueber-solo .ueber-txt {
+      flex-basis: auto; }
+      .main .ueber-solo .ueber-txt p {
+        max-width: 75%; }
+    .main .ueber-solo .ueber-img {
+      width: 100%;
+      display: block; }
+      .main .ueber-solo .ueber-img img {
+        display: inline-block;
+        width: 70%;
+        transform: translate(0, 0); }
 
   footer .footer-cnt__list__item {
     font-size: 0.8em; } }
