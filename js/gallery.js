@@ -1,11 +1,7 @@
 document.addEventListener("DOMContentLoaded", function (e) {
 
 
-
-
     var thmb_links = document.querySelectorAll(".gallery__list__item a");
-    var galerieelementsATag = document.querySelectorAll(".gallery__list__item a");
-    var galerieelementsImgTags = document.querySelectorAll(".gallery__list__item a img");
     var main = document.querySelector("main");
 
 
@@ -72,41 +68,15 @@ document.addEventListener("DOMContentLoaded", function (e) {
         var click_off = window.innerWidth / 5;
 
 
-        console.log(click_off);
+        /*    TweenLite.to(document.querySelector('.lightbox__img'), 1, {
+                scrollTo: new_img,
+                ease: Expo.easeOut
+            })*/
 
 
-        var all_imgs = document.querySelectorAll(".lightbox__img img");
+        new_img.classList.add("active");
 
-        console.log(new_img);
-
-        TweenLite.to(document.querySelector('.lightbox__img'), 1, {
-            scrollTo: new_img,
-            ease: Expo.easeOut
-        })
-
-        var prev_link = document.querySelector("[data-index='" + idx_less + "']").parentNode;
-        var prev_link_src = prev_link.getAttribute("href");
-
-        var prev_img = document.createElement("img");
-        prev_img.setAttribute("src", prev_link_src);
-
-        console.log(prev_img);
-
-        lightbox_img.prepend(prev_img);
-
-
-        var next_links = document.querySelector("[data-index='" + idx_more + "']").parentNode;
-        var next_links_src = next_links.getAttribute("href");
-
-
-        var get_next_imgs = document.createElement("img");
-        get_next_imgs.setAttribute("src", next_links_src);
-
-        lightbox_img.append(get_next_imgs);
-
-
-
-        /*for (var i = 0; i < idx; i++) {
+        for (var i = 0; i < idx; i++) {
 
             var prev_links = document.querySelector("[data-index='" + i + "']").parentNode;
             var prev_links_src = prev_links.getAttribute("href");
@@ -114,7 +84,6 @@ document.addEventListener("DOMContentLoaded", function (e) {
             var get_prev_imgs = document.createElement("img");
             get_prev_imgs.setAttribute("src", prev_links_src);
 
-            console.log(get_prev_imgs);
             lightbox_img.prepend(get_prev_imgs);
 
             new_img.before(get_prev_imgs);
@@ -136,10 +105,202 @@ document.addEventListener("DOMContentLoaded", function (e) {
             lightbox_img.append(get_next_imgs);
 
 
-        }*/
+        }
 
+        var all_imgs = document.querySelectorAll(".lightbox__img img");
+
+        var clicked_nav = false;
+        var direction;
+
+        /*function slide(dir, arr) {
+
+            var active_img = document.querySelector(".lightbox__img img.active");
+
+            var direction = dir;
+            var array_pos = arr;
+            console.log(active_img[direction]);
+            console.log(all_imgs[array_pos]);
+
+            var prev_img = active_img[direction];
+
+            function tween() {
+                if (!active_img[direction]) {
+                    active_img.classList.remove("active");
+                    all_imgs[array_pos].classList.add("active");
+                    TweenLite.fromTo(all_imgs[array_pos], 0.25, {
+                        alpha: 0,
+                        left: "30%"
+                    }, {
+                        delay: 0.35,
+                        alpha: 1,
+                        left: "50%",
+                        zIndex: 99,
+                        ease: Power2.easeOut
+                    });
+
+                    TweenLite.fromTo(active_img, 0.25, {
+                        alpha: 1,
+                        left: "50%"
+                    }, {
+                        zIndex: 0,
+                        alpha: 0,
+                        left: "70%",
+                        ease: Power2.easeOut
+                    });
+
+                } else {
+                    active_img.classList.remove("active");
+                    active_img[direction].classList.add("active");
+                    TweenLite.fromTo(prev_img, 0.25, {
+                        alpha: 0,
+                        left: "30%"
+                    }, {
+                        delay: 0.35,
+                        alpha: 1,
+                        left: "50%",
+                        zIndex: 99,
+                        ease: Power2.easeOut
+                    });
+
+                    TweenLite.fromTo(active_img, 0.25, {
+                        alpha: 1,
+                        left: "50%"
+                    }, {
+                        zIndex: 0,
+                        alpha: 0,
+                        left: "70%",
+                        ease: Power2.easeOut
+                    });
+                }
+            }
+
+            tween();
+
+        }
+
+
+        prev_cnt.addEventListener("click", slide("previousElementSibling", all_imgs.length - 1));
+
+        next_cnt.addEventListener("click", slide("nextElementSibling", 0));*/ // ONE FUNCTION FOR TWEENING
+
+        prev_cnt.addEventListener("click", function () {
+
+            var active_img = document.querySelector(".lightbox__img img.active");
+            var prev_img = active_img.previousElementSibling;
+
+            function tween() {
+
+                if (!active_img.previousElementSibling) {
+                    active_img.classList.remove("active");
+                    all_imgs[all_imgs.length - 1].classList.add("active");
+                    TweenLite.fromTo(all_imgs[all_imgs.length - 1], 0.25, {
+                        alpha: 0,
+                        left: "25%"
+                    }, {
+                        delay: 0.35,
+                        alpha: 1,
+                        left: "50%",
+                        zIndex: 99,
+                        ease: Power2.easeOut
+                    });
+
+                    TweenLite.fromTo(active_img, 0.25, {
+                        alpha: 1,
+                        left: "50%"
+                    }, {
+                        zIndex: 0,
+                        alpha: 0,
+                        left: "75%",
+                        ease: Power4.easeOut
+                    });
+
+                } else {
+                    active_img.classList.remove("active");
+                    prev_img.classList.add("active");
+                    TweenLite.fromTo(prev_img, 0.25, {
+                        alpha: 0,
+                        left: "25%"
+                    }, {
+                        delay: 0.35,
+                        alpha: 1,
+                        left: "50%",
+                        zIndex: 99,
+                        ease: Power2.easeOut
+                    });
+
+                    TweenLite.fromTo(active_img, 0.25, {
+                        alpha: 1,
+                        left: "50%"
+                    }, {
+                        zIndex: 0,
+                        alpha: 0,
+                        left: "75%",
+                        ease: Power4.easeOut
+                    });
+                }
+            }
+            window.requestAnimationFrame(tween);
+        });
 
         next_cnt.addEventListener("click", function () {
+
+            var active_img = document.querySelector(".lightbox__img img.active");
+            var next_img = active_img.nextElementSibling;
+
+            function tween() {
+
+                if (!active_img.nextElementSibling) {
+                    active_img.classList.remove("active");
+                    all_imgs[0].classList.add("active");
+                    TweenLite.fromTo(all_imgs[0], 0.25, {
+                        alpha: 0,
+                        left: "75%"
+                    }, {
+                        delay: 0.35,
+                        alpha: 1,
+                        left: "50%",
+                        zIndex: 99,
+                        ease: Power2.easeOut
+                    });
+
+                    TweenLite.fromTo(active_img, 0.25, {
+                        alpha: 1,
+                        left: "50%"
+                    }, {
+                        zIndex: 0,
+                        alpha: 0,
+                        left: "25%",
+                        ease: Power4.easeOut
+                    });
+
+                } else {
+                    active_img.classList.remove("active");
+                    next_img.classList.add("active");
+                    TweenLite.fromTo(next_img, 0.25, {
+                        alpha: 0,
+                        left: "75%"
+                    }, {
+                        delay: 0.35,
+                        alpha: 1,
+                        left: "50%",
+                        zIndex: 99,
+                        ease: Power2.easeOut
+                    });
+
+                    TweenLite.fromTo(active_img, 0.25, {
+                        alpha: 1,
+                        left: "50%"
+                    }, {
+                        zIndex: 0,
+                        alpha: 0,
+                        left: "25%",
+                        ease: Power4.easeOut
+                    });
+                }
+
+            }
+
+            window.requestAnimationFrame(tween);
 
 
         });
@@ -161,14 +322,13 @@ document.addEventListener("DOMContentLoaded", function (e) {
         })*/
 
         document.addEventListener("keydown", function (event) {
-            if(event.keyCode === 27) {
+            if (event.keyCode === 27) {
                 exitCnt.click()
             }
         })
 
 
     }
-
 
 
     for (var i = 0; i < thmb_links.length; i++) {

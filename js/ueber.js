@@ -30,6 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
         });
         console.log(event.target);
 
+
+
         var galeryorganizer = document.createElement("div");//zum platzieren einzelner objekte in css
         galeryorganizer.setAttribute("class", "inner-lightbox");
 
@@ -53,16 +55,25 @@ document.addEventListener("DOMContentLoaded", function () {
             '<span></span>' +
             '</div>';
 
+
+
         galerylightbox.appendChild(galeryorganizer);
         galerylightbox.appendChild(exitCnt);
         galeryorganizer.insertAdjacentHTML("beforeend", testCode);
 
+        var click_idx = event.target.getAttribute("data-index");
+        var click_img = document.querySelector(".js_slide img[data-index='" + click_idx + "']");
+        console.log(click_idx);
+        console.log(click_img);
+        var click_li = click_img.parentNode;
+        console.log(click_li);
+        click_li.classList.add("active");
 
         var simple = document.querySelector('.js_slider');
 
         lory(simple, {
             infinite: 1,
-            slideSpeed: 500,
+            slideSpeed: 700,
             ease: "cubic-bezier(0.645, 0.045, 0.355, 1)"
         });
 

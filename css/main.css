@@ -514,123 +514,7 @@ header {
   padding: 0 10%;
   display: flex;
   margin-top: 15.5vh;
-  position: relative;
-  /*& .lightbox-cnt {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8);
-
-    & .lightbox {
-      width: 100%;
-      height: auto;
-
-
-      &__exit {
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        display: inline-block;
-        right: 9.5%;
-        cursor: pointer;
-        top: 8vh;
-
-        & span {
-          width: 85%;
-          height: 2px;
-          background-color: $maincolor;
-          position: absolute;
-          right: 50%;
-          top: 50%;
-          transform: translate(50%, -50%);
-          @include transition(all, .3s, cubic-bezier(0.175, 0.885, 0.32, 1.275));
-
-          &:nth-child(1) {
-            transform: translate(50%, -50%) rotate(45deg);
-          }
-          &:nth-child(2) {
-            transform: translate(50%, -50%) rotate(-45deg);
-          }
-        }
-        &:hover span:nth-child(1) {
-          transform: translate(50%, -50%) rotate(30deg);
-        }
-        &:hover span:nth-child(2) {
-          transform: translate(50%, -50%) rotate(-30deg);
-        }
-      }
-
-      & .slide-nav {
-        width: 10%;
-        height: 50%;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-      }
-
-      &__prev {
-        left: 2.5%;
-
-        & span {
-          display: inline-block;
-          right: 5%;
-          border: $maincolor solid;
-          border-width: 0 2px 2px 0;
-          padding: 10px;
-          transform: rotate(135deg);
-        }
-
-      }
-      &__next {
-        right: 2.5%;
-
-        & span {
-          display: inline-block;
-          right: 5%;
-          border: $maincolor solid;
-          border-width: 0 2px 2px 0;
-          padding: 10px;
-          transform: rotate(-45deg);
-        }
-
-      }
-
-      ::-webkit-scrollbar {
-        display: none;
-      }
-
-      &__img {
-        overflow-x: scroll;
-        display: inline-block;
-        white-space: nowrap;
-        min-width: 100%;
-
-
-        & img {
-          width: 80%;
-          max-width: 1440px;
-          display: inline-block;
-          padding-left: 20%;
-          margin-right:20%;
-
-          !*&:last-child {
-            margin-right: 20%;
-          }*!
-        }
-      }
-    }
-
-  }*/ }
+  position: relative; }
   .main__menu__h1 {
     font-size: 3.4em;
     align-self: flex-start;
@@ -767,9 +651,9 @@ header {
           font-size: 1.1em;
           letter-spacing: 1px; }
         .main-content .solo-cnt__item .kontakt-txt {
-          font-size: 1.1em; }
+          font-size: 1.1em;
+          margin-top: 1.65em; }
           .main-content .solo-cnt__item .kontakt-txt h3 {
-            margin-top: -.75em;
             font-size: 1.8em;
             font-weight: 300; }
             .main-content .solo-cnt__item .kontakt-txt h3 em {
@@ -786,6 +670,9 @@ header {
               display: block;
               position: absolute;
               width: 100%; }
+        .main-content .solo-cnt__item .kontakt-img iframe {
+          width: 500px;
+          height: 600px; }
         .main-content .solo-cnt__item__img {
           flex-basis: 55%;
           display: flex;
@@ -816,6 +703,110 @@ header {
             .main-content .gallery-cnt .gallery__list__item a img {
               display: block;
               width: 100%; }
+  .main .lightbox-cnt {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); }
+    .main .lightbox-cnt .lightbox {
+      width: 100%;
+      height: auto; }
+      .main .lightbox-cnt .lightbox__exit {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        display: inline-block;
+        right: 9.5%;
+        cursor: pointer;
+        top: 8vh;
+        z-index: 3; }
+        .main .lightbox-cnt .lightbox__exit span {
+          width: 85%;
+          height: 2px;
+          background-color: #5c452b;
+          position: absolute;
+          right: 50%;
+          top: 50%;
+          transform: translate(50%, -50%);
+          -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+          .main .lightbox-cnt .lightbox__exit span:nth-child(1) {
+            transform: translate(50%, -50%) rotate(45deg); }
+          .main .lightbox-cnt .lightbox__exit span:nth-child(2) {
+            transform: translate(50%, -50%) rotate(-45deg); }
+        .main .lightbox-cnt .lightbox__exit:hover span:nth-child(1) {
+          transform: translate(50%, -50%) rotate(30deg); }
+        .main .lightbox-cnt .lightbox__exit:hover span:nth-child(2) {
+          transform: translate(50%, -50%) rotate(-30deg); }
+      .main .lightbox-cnt .lightbox .slide-nav {
+        width: 10%;
+        height: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer; }
+      .main .lightbox-cnt .lightbox__prev {
+        left: 2.5%;
+        z-index: 3; }
+        .main .lightbox-cnt .lightbox__prev span {
+          display: inline-block;
+          right: 5%;
+          border: #5c452b solid;
+          border-width: 0 2px 2px 0;
+          padding: 10px;
+          transform: rotate(135deg); }
+      .main .lightbox-cnt .lightbox__next {
+        right: 2.5%;
+        z-index: 3; }
+        .main .lightbox-cnt .lightbox__next span {
+          display: inline-block;
+          right: 5%;
+          border: #5c452b solid;
+          border-width: 0 2px 2px 0;
+          padding: 10px;
+          transform: rotate(-45deg); }
+      .main .lightbox-cnt .lightbox ::-webkit-scrollbar {
+        display: none; }
+      .main .lightbox-cnt .lightbox__img {
+        overflow-x: scroll;
+        display: inline-block;
+        white-space: nowrap;
+        width: 100%;
+        height: 100vh;
+        position: relative; }
+        .main .lightbox-cnt .lightbox__img img {
+          width: 55%;
+          max-width: 1440px;
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          opacity: 0;
+          z-index: 0;
+          -webkit-transition: all 1.25s cubic-bezier(0.23, 1, 0.32, 1);
+          -moz-transition: all 1.25s cubic-bezier(0.23, 1, 0.32, 1);
+          -ms-transition: all 1.25s cubic-bezier(0.23, 1, 0.32, 1);
+          -o-transition: all 1.25s cubic-bezier(0.23, 1, 0.32, 1);
+          transition: all 1.25s cubic-bezier(0.23, 1, 0.32, 1);
+          /*&:last-child {
+            margin-right: 20%;
+          }*/ }
+          .main .lightbox-cnt .lightbox__img img.active {
+            opacity: 1;
+            z-index: 99; }
   .main .galerylightbox {
     position: fixed;
     z-index: 101;
@@ -953,6 +944,9 @@ footer {
 
   .main-content {
     padding: 2.5em 0 0 5em; }
+    .main-content .solo-cnt__item .kontakt-img iframe {
+      width: 400px;
+      height: 525px; }
   .main__menu__h1 {
     font-size: 2.5em; }
   .main__menu__list__item {
@@ -1284,7 +1278,7 @@ footer {
       flex-basis: 0;
       display: block; }
       .main-content .solo-cnt {
-        margin-top: 5em; }
+        margin-top: .5em; }
         .main-content .solo-cnt .solo-cnt__item {
           margin-bottom: 15em;
           flex-flow: column; }
@@ -1292,9 +1286,12 @@ footer {
             font-size: 1.5em; }
           .main-content .solo-cnt .solo-cnt__item__text p {
             font-size: 1em; }
-          .main-content .solo-cnt .solo-cnt__item__img img {
-            width: 100%;
-            transform: translate(0, 0); }
+          .main-content .solo-cnt .solo-cnt__item__img {
+            margin-top: 1em;
+            text-align: center; }
+            .main-content .solo-cnt .solo-cnt__item__img img {
+              width: 75%;
+              transform: translate(0, 0); }
         .main-content .solo-cnt .ueber-item {
           margin-bottom: 0; }
     .main .overview {
