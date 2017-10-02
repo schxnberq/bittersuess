@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function (e) {
 
     var ueber_menu = document.querySelector(".ueber-menu__list");
-    var ueber_menu_rect = ueber_menu.getBoundingClientRect();
-    var menu_height = ueber_menu_rect.height + 10;
+    /*var ueber_menu_rect = ueber_menu.getBoundingClientRect();
+    var menu_height = ueber_menu_rect.height + 10;*/
 
-    console.log(menu_height);
+
 
 
     document.querySelector(".ueber-h1").addEventListener("click", function (e) {
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
             TweenLite.to(document.querySelector(".ueber-menu"), .7, {
                 opacity: 1,
                 visibility: "visible",
-                height: menu_height,
+                height: "37.5vh",
                 classList: "ueber-menu hiddenOnDesktop ueber-clicked",
                 ease: Power4.easeOut
             });
