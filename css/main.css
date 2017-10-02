@@ -1098,6 +1098,8 @@ footer {
       .main-content .solo-cnt__item__img {
         align-items: flex-start;
         flex-basis: 90%; }
+    .main-content .ueber-solo {
+      height: auto; }
 
   /*.main-content {
     padding: 0;
@@ -1281,7 +1283,8 @@ footer {
         margin-top: .5em; }
         .main-content .solo-cnt .solo-cnt__item {
           margin-bottom: 15em;
-          flex-flow: column; }
+          flex-flow: column;
+          height: auto; }
           .main-content .solo-cnt .solo-cnt__item__text h2 {
             font-size: 1.5em; }
           .main-content .solo-cnt .solo-cnt__item__text p {
@@ -1289,11 +1292,13 @@ footer {
           .main-content .solo-cnt .solo-cnt__item__img {
             margin-top: 1em;
             text-align: center; }
-            .main-content .solo-cnt .solo-cnt__item__img img {
-              width: 75%;
-              transform: translate(0, 0); }
-        .main-content .solo-cnt .ueber-item {
+        .main-content .solo-cnt .ueber-solo {
           margin-bottom: 0; }
+          .main-content .solo-cnt .ueber-solo .ueber-img {
+            margin-top: 1em;
+            text-align: center; }
+            .main-content .solo-cnt .ueber-solo .ueber-img img {
+              width: 85%; }
     .main .overview {
       justify-content: space-between; }
       .main .overview__list {
@@ -1321,7 +1326,7 @@ footer {
     footer .footer-cnt__list {
       flex-flow: column;
       align-items: center;
-      font-size: 2.75vw; }
+      font-size: 3.25vw; }
       footer .footer-cnt__list__item {
         padding: 1% 0; }
 
@@ -1425,6 +1430,9 @@ footer {
         .home__float__cnt .item_10 {
           width: 100%; } }
 @media screen and (min-width: 0px) and (max-width: 600px) {
+  .overlayMenu__list {
+    font-size: 1; }
+
   .main .overview {
     justify-content: space-between; }
     .main .overview__list__item {
