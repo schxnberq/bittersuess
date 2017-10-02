@@ -749,12 +749,14 @@ header {
         border: solid $maincolor;
         border-width: 0 2px 2px 0;
         padding: 8px;
+        -webkit-transform: translate(75%, -40%) rotate(45deg);
         transform: translate(75%, -40%) rotate(45deg);
         transform-origin: 50% 50%;
         @include transition(all, .3s, ease);
         z-index: 0;
 
         &.clicked {
+          -webkit-transform: translate(75%, 5%) rotate(-135deg);
           transform: translate(75%, 5%) rotate(-135deg);
         }
       }

@@ -4,6 +4,7 @@
     <list default="true" id="1540626d-3b24-442a-8fdb-860ee419bba2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,10 +97,10 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
-                  <caret line="738" column="16" lean-forward="true" selection-start-line="738" selection-start-column="16" selection-end-line="738" selection-end-column="16" />
+                <state relative-caret-position="637">
+                  <caret line="754" column="44" lean-forward="true" selection-start-line="754" selection-start-column="44" selection-end-line="754" selection-end-column="44" />
                   <folding>
-                    <marker date="1506910847000" expanded="true" signature="10007:10278" ph="{...}" />
+                    <marker date="1506911003000" expanded="true" signature="10007:10278" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -452,7 +453,7 @@
       <workItem from="1506671024165" duration="30870000" />
       <workItem from="1506773212214" duration="39060000" />
       <workItem from="1506859352520" duration="19098000" />
-      <workItem from="1506902753258" duration="8048000" />
+      <workItem from="1506902753258" duration="8206000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;NEW COMMIT&quot;">
       <created>1504693627906</created>
@@ -671,11 +672,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506910816491</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="&quot;UEBER DROPDOWN :NOT(MENU)&quot;">
+      <created>1506910858374</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1506910858374</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221205000" />
+    <option name="totallyTimeSpent" value="221363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
@@ -749,7 +757,8 @@
     <MESSAGE value="&quot;RESPONSIVE FIX&quot;" />
     <MESSAGE value="&quot;My new slider&quot;" />
     <MESSAGE value="&quot;UEBER DROPDOWN :NOT(MOBILE)&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;UEBER DROPDOWN :NOT(MOBILE)&quot;" />
+    <MESSAGE value="&quot;UEBER DROPDOWN :NOT(MENU)&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;UEBER DROPDOWN :NOT(MENU)&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -793,7 +802,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1506910847000" expanded="true" signature="10007:10278" ph="{...}" />
+            <marker date="1506911003000" expanded="true" signature="10007:10278" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -841,7 +850,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1506910847000" expanded="true" signature="10007:10278" ph="{...}" />
+            <marker date="1506911003000" expanded="true" signature="10007:10278" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1094,10 +1103,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="738" column="16" lean-forward="true" selection-start-line="738" selection-start-column="16" selection-end-line="738" selection-end-column="16" />
+        <state relative-caret-position="637">
+          <caret line="754" column="44" lean-forward="true" selection-start-line="754" selection-start-column="44" selection-end-line="754" selection-end-column="44" />
           <folding>
-            <marker date="1506910847000" expanded="true" signature="10007:10278" ph="{...}" />
+            <marker date="1506911003000" expanded="true" signature="10007:10278" ph="{...}" />
           </folding>
         </state>
       </provider>
