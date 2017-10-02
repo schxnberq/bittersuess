@@ -667,6 +667,7 @@ header {
 
       &__item {
         width: 100%;
+        position: relative;
 
         & a {
           display: block;
@@ -675,6 +676,29 @@ header {
           color: $maincolor;
           text-align: center;
           padding: 0.5em 0;
+        }
+
+        &:last-child {
+
+          & a:nth-child(2) {
+            display: inline-block;
+            padding: 0;
+            position: absolute;
+            top: 50%;
+            right: 15%;
+            width: 35px;
+            height: 35px;
+            transform: translateY(-60%);
+            cursor: pointer;
+
+            & span {
+              display: inline-block;
+              border: solid $maincolor;
+              border-width: 0 2px 2px 0;
+              padding: 7px;
+              transform: rotate(45deg);
+            }
+          }
         }
       }
 
@@ -707,6 +731,73 @@ header {
     & em {
       font-style: normal;
       color: $acc_color;
+    }
+
+  }
+  & .ueber-h1 {
+    z-index: 99;
+  }
+  & .ueber-menu {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+
+    & .ueber-drpdwn {
+      display: inline-block;
+      padding: 0;
+      position: absolute;
+      top: 47%;
+      right: -25%;
+      width: 35px;
+      height: 35px;
+      transform: translateY(-60%);
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & span {
+        display: inline-block;
+        border: solid $maincolor;
+        border-width: 0 2px 2px 0;
+        padding: 7px;
+        transform: rotate(45deg);
+      }
+    }
+
+    &__list {
+      @include listreset;
+      padding-left: 1.65em;
+
+
+      &__item {
+        position: relative;
+
+        &:before {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 25%;
+          height: 1px;
+          left: 0;
+          bottom: 0.35em;
+          background-color: $maincolor;
+          transform-origin: 0% 50%;
+          transform: scaleX(0);
+          -webkit-transition: all .75s cubic-bezier(0.19, 1, 0.22, 1);
+          transition: all .75s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+
+        & a {
+          font-weight: 200;
+          display: block;
+          padding: 0.35em 0;
+          @include linkreset;
+        }
+        &.menu__active:before {
+          transform: scaleX(1);
+        }
+      }
     }
   }
 
@@ -2231,13 +2322,16 @@ footer {
 
 @media screen and (min-width: 0px) and (max-width: 600px) {
 
-  .overlayMenu {
+  header {
 
-    &__list {
-      font-size: 0.9em;
+    .overlayMenu {
 
-      &__item {
+      &__list {
+        font-size: 1.55em;
 
+        &__item {
+
+        }
       }
     }
   }
