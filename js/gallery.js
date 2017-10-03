@@ -112,16 +112,31 @@ document.addEventListener("DOMContentLoaded", function (e) {
         var clicked_nav = false;
         var direction;
 
-        /*function slide(dir, arr) {
+        function slide(dir, arr) {
 
             var active_img = document.querySelector(".lightbox__img img.active");
 
             var direction = dir;
             var array_pos = arr;
-            console.log(active_img[direction]);
-            console.log(all_imgs[array_pos]);
+            /*console.log(active_img[direction]);
+            console.log(all_imgs[array_pos]);*/
 
             var prev_img = active_img[direction];
+
+            var slide_in;
+            var slide_out;
+
+            if(dir.indexOf("previous") !== - 1) {
+                console.log("prev");
+                slide_in = "30%";
+                slide_out = "70%";
+            } else {
+                console.log("next");
+                slide_in = "70%";
+                slide_out = "30%";
+            }
+
+            console.log("In" + slide_in, "Out" + slide_out);
 
             function tween() {
                 if (!active_img[direction]) {
@@ -129,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
                     all_imgs[array_pos].classList.add("active");
                     TweenLite.fromTo(all_imgs[array_pos], 0.25, {
                         alpha: 0,
-                        left: "30%"
+                        left: slide_in
                     }, {
                         delay: 0.35,
                         alpha: 1,
@@ -144,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
                     }, {
                         zIndex: 0,
                         alpha: 0,
-                        left: "70%",
+                        left: slide_out,
                         ease: Power2.easeOut
                     });
 
@@ -153,7 +168,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
                     active_img[direction].classList.add("active");
                     TweenLite.fromTo(prev_img, 0.25, {
                         alpha: 0,
-                        left: "30%"
+                        left: slide_in
                     }, {
                         delay: 0.35,
                         alpha: 1,
@@ -168,22 +183,28 @@ document.addEventListener("DOMContentLoaded", function (e) {
                     }, {
                         zIndex: 0,
                         alpha: 0,
-                        left: "70%",
+                        left: slide_out,
                         ease: Power2.easeOut
                     });
                 }
             }
 
-            tween();
+            window.requestAnimationFrame(tween);
 
         }
 
-
-        prev_cnt.addEventListener("click", slide("previousElementSibling", all_imgs.length - 1));
-
-        next_cnt.addEventListener("click", slide("nextElementSibling", 0));*/ // ONE FUNCTION FOR TWEENING
-
+        // CLEAN FUNCTION FOR TWEENING
         prev_cnt.addEventListener("click", function () {
+            slide("previousElementSibling", all_imgs.length - 1);
+
+        });
+
+        next_cnt.addEventListener("click", function () {
+            slide("nextElementSibling", 0)
+        });
+
+        // EXTRA FUNCTION FOR TWEENING
+        /*prev_cnt.addEventListener("click", function () {
 
             var active_img = document.querySelector(".lightbox__img img.active");
             var prev_img = active_img.previousElementSibling;
@@ -303,7 +324,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
             window.requestAnimationFrame(tween);
 
 
-        });
+        });*/
 
 
         exitCnt.addEventListener("click", function () {

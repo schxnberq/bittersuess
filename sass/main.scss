@@ -898,6 +898,9 @@ header {
       margin-left: 7.5%;
     }
   }
+  & .overview {
+    margin-bottom: 9em;
+  }
 
   &-content {
     flex-basis: 85%;
@@ -2179,7 +2182,7 @@ footer {
 
   footer .footer-cnt {
     position: relative;
-    margin-top: 25vw;
+    margin-top: 5vh;
     margin-bottom: 5em;
 
     &__list {

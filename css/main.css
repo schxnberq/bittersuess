@@ -680,6 +680,8 @@ header {
     .main__menu .ueber-list {
       align-self: flex-start;
       margin-left: 7.5%; }
+  .main .overview {
+    margin-bottom: 9em; }
   .main-content {
     flex-basis: 85%;
     display: flex;
@@ -1421,7 +1423,7 @@ footer {
 
   footer .footer-cnt {
     position: relative;
-    margin-top: 25vw;
+    margin-top: 5vh;
     margin-bottom: 5em; }
     footer .footer-cnt__list {
       flex-flow: column;
