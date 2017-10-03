@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
     var gallery = function (event) {
 
+
         event.preventDefault();//hindert weiterleiten
         var idx = parseInt(event.target.dataset.index);
         console.log(idx);
@@ -76,6 +77,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
         new_img.classList.add("active");
 
+
         for (var i = 0; i < idx; i++) {
 
             var prev_links = document.querySelector("[data-index='" + i + "']").parentNode;
@@ -116,6 +118,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
             var active_img = document.querySelector(".lightbox__img img.active");
 
+
             var direction = dir;
             var array_pos = arr;
             /*console.log(active_img[direction]);
@@ -126,10 +129,12 @@ document.addEventListener("DOMContentLoaded", function (e) {
             var slide_in;
             var slide_out;
 
-            if(dir.indexOf("previous") !== - 1) {
+            if (dir.indexOf("previous") !== -1) {
                 console.log("prev");
                 slide_in = "30%";
                 slide_out = "70%";
+
+
             } else {
                 console.log("next");
                 slide_in = "70%";
